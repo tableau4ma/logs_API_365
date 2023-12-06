@@ -2,10 +2,8 @@
 
 Этот скрипт позволяет настроить регулярную 
 загрузку данных из Яндекс Метрики в Google Sheets.
-Я это использую для построения
-регулярной отчётности в Datalens 
-по калькулятору размера выборок
-в A/B тестах [ABnTester](https://abntester.com).
+**https://habr.com/ru/articles/756374/**
+Ссылка на оригинальный материал откуда я все скопипастил
 
 # Как использовать
 
@@ -107,11 +105,3 @@ Google Sheets, нужно тоже получать доступы.
 Список полей можно посмотреть в официальной документации:
 [просмотры](https://yandex.ru/dev/metrika/doc/api2/logs/fields/hits.html)
 и [визиты](https://yandex.ru/dev/metrika/doc/api2/logs/fields/visits.html).
-
-# Ссылки
-
-* То, для чего это всё сделано: 
-калькулятор размера выборки для A/B тестов [ABnTester](https://abntester.com).
-* За основу была взята [инструкция](https://cloud.yandex.ru/docs/datalens/tutorials/data-from-metrica-yc-visualization)
-по интеграции с Datalens через Clickhouse.
-* Скрипты интеграции с Logs API были заимствованы [отсюда](https://github.com/zhdanchik/yandex_metrika_cloud_case).
